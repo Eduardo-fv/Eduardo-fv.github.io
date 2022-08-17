@@ -11,7 +11,7 @@ body {
 
 
     color:darkgrey;
-    front-family: 'lato';
+    font-family: 'lato';
     font-size: 2em;
     line-height: 1.5;
 
@@ -39,3 +39,11 @@ iframe{
     height: 472px;
     display: block;
 }
+
+.titulo3 {
+    margin: 10px;
+    text-align: center;
+}
+
+
+
