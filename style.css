@@ -58,6 +58,32 @@ iframe{
     position: 10px;
 }
 .btn:hover{
-    background: rgb(95, 95, 95);
+    background: rgb(110, 110, 110);
     transition: background 1s;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1, .card2, .card3 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 darkgray;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+.card1:hover {
+    transform: translate(-5px);
+    cursor: pointer;
+}
+.card2:hover {
+    transform: translate(-5px);
+    cursor: pointer;
+}
+.card3:hover {
+    transform: translate(-5px);
+    cursor: pointer;
 }
