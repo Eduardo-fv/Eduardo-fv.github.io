@@ -66,6 +66,7 @@ iframe{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .card1, .card2, .card3 {
     border-radius: 5px;
@@ -86,4 +87,5 @@ iframe{
 .card3:hover {
     transform: translate(-5px);
     cursor: pointer;
+   
 }
