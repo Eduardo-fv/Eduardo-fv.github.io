@@ -1,6 +1,6 @@
 body {
     width: 95%;
-    max-width: 1800px;
+    max-width: 1300px;
     margin:auto;
 
     background-image: url(bk2.jpg);
@@ -45,5 +45,19 @@ iframe{
     text-align: center;
 }
 
-
-
+.btn {
+    padding: 10px 8px;
+    width: 55px;
+    color: darkgrey;
+    background: #fff4;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    position: 10px;
+}
+.btn:hover{
+    background: rgb(95, 95, 95);
+    transition: background 1s;
+}
