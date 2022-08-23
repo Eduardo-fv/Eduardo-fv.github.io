@@ -74,14 +74,16 @@ iframe{
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0 darkgray;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
     width: 250px;
     max-width: 100%;
     transition: all 0.3s ease-out;
+
 }
 .card1:hover {
     transform: translate(-5px);
     cursor: pointer;
+    
 }
 .card2:hover {
     transform: translate(-5px);
@@ -92,3 +94,12 @@ iframe{
     cursor: pointer;
    
 }
+@media (max-width: 800px) {
+
+    .row{
+    
+    flex-direction: column;
+    
+    }
+    
+    }
